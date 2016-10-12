@@ -18,7 +18,6 @@ if(isset($_POST['login'])) { // Le formulaire a été soumis
 
 
 
-// On est pas loggé, il faut afficher le formulaire
 /*if(isset($_SESSION['id'])) { // On est loggé
     echo "Bonjour " . $_SESSION['login']. " ";
     echo lien("login.php?action=deconnexion","Déconnexion");
