@@ -1,4 +1,4 @@
-<?php 
+﻿<?php 
 session_start();
 include("../divers/connexion.php");
 include("../divers/balises.php");
@@ -49,6 +49,7 @@ if($ok==false) {
 
 echo "Bonjour " . $_SESSION['login']. " ";
 echo lien("login.php?action=deconnexion","Déconnexion");
+echo "ceci est un test";
 ?>
 
 <?php
