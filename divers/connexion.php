@@ -1,10 +1,10 @@
-<?php
+﻿<?php
 // Script connexion.php utilisé pour la connexion à la BD
 
 
 $host="localhost"; // le chemin vers le serveur (localhost dans 99% des cas)
 
-$db="david.huet"; // le nom de votre base de données.
+$db="guillaumeandry"; // le nom de votre base de données.
             // A l IUT, 3 possibilité prenomnom prenomnom1... 
 
 $user="root"; // nom d utilisateur pour se connecter
