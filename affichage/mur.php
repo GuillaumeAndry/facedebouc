@@ -50,6 +50,7 @@ if($ok==false) {
 echo "Bonjour " . $_SESSION['login']. " ";
 echo lien("login.php?action=deconnexion","Déconnexion");
 echo "ceci est un test";
+echo "Ok c'est bon pour moi";
 ?>
 
 <?php
