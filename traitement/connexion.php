@@ -18,12 +18,13 @@ if(isset($_POST['login'])) { // Le formulaire a été soumis
 
 
 
-/*if(isset($_SESSION['id'])) { // On est loggé
-    echo "Bonjour " . $_SESSION['login']. " ";
-    echo lien("login.php?action=deconnexion","Déconnexion");
-} /*
+if(isset($_SESSION['id'])) { // On est loggé
+    /*echo "Bonjour " . $_SESSION['login']. " ";
+    echo lien("login.php?action=deconnexion","Déconnexion");*/
+    header("Location:mur.php?id=".$_SESSION['id']);
+}
 
 // Si ça marche on est redirigé vers son mur
 
-header("Location:mur.php?id=".$_SESSION['id']);
+//header("Location:mur.php?id=".$_SESSION['id']);
 ?>

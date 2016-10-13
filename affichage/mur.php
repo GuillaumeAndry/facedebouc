@@ -47,8 +47,8 @@ if($ok==false) {
 // SELECT * FROM ecrit WHERE idAmi=?
 // le paramètre  est le $_GET['id']
 
-
-
+echo "Bonjour " . $_SESSION['login']. " ";
+echo lien("login.php?action=deconnexion","Déconnexion");
 ?>
 
 <?php
