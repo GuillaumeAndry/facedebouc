@@ -41,7 +41,7 @@ echo "</fieldset>";
 echo "</form>";
 
 ?>
-
+<a href="http://localhost/facedebouc/affichage/login.php#">Déjà membre ?</a>
 <?php
 
 include("pied.php");

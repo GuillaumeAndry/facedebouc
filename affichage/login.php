@@ -27,7 +27,7 @@ include('../traitement/deconnexion.php');
 		<input type="submit" name="valider">
 	</fieldset>
 </form>
-
+<a href="http://localhost/facedebouc/affichage/creer.php#">Créer compte</a>
 <?php
 include("pied.php");
 ?>
