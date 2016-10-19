@@ -52,8 +52,12 @@ echo lien("login.php?action=deconnexion","Déconnexion");
 echo "<br />";
 echo lien("ami.php","Page ami");
 echo "<br />";
+echo "<form>";
+echo input("text","ecrire",array('placeholder' => 'titre'));
 echo input("text","ecrire");
+echo "<br />";
 echo input("submit","publier");
+echo "</form>";
 ?>
 
 <?php
