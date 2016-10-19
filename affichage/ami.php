@@ -37,12 +37,31 @@ include("entete.php");
 
 
 
-/*$sql = "lien(id,idUtilisateur1,idUtilisateur2,etat)";
-$query = $pdo->prepare($sql);
-$query->execute();*/
-echo "<input type='text' name='nomami'/>";
-?>
 
+/*echo "<input type='text' name='nomami'/>";
+echo "<input type='button' name='button' />";
+if(isset($_GET['id'])) { // Le formulaire a été soumis
+    $sql = "INSERT INTO lien VALUES(NULL,?,?,"attente");";
+    $query=$pdo->prepare($sql);
+    $query->execute(array($_POST['login'],$_POST['passwd']));
+    
+    // Un seul résultat possible : login est unique
+    $line = $query->fetch();*/
+var $action = 0;
+switch($action)
+{
+    case "add": //On veut ajouter un ami
+    if (!isset($_POST['pseudo']))
+    {
+    echo '<form action="amis.php?action=add" method="post">
+    <p><label for="pseudo">Entrez le pseudo</label>
+    <input type="text" name="pseudo" id="pseudo" />
+    <input type="submit" value="Envoyer" />
+    </p></form>';
+    }
+}
+
+?>
 
 
 <?php
