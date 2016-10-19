@@ -1,4 +1,4 @@
-﻿<?php 
+<?php 
 session_start();
 include("../divers/connexion.php");
 include("../divers/balises.php");
@@ -51,7 +51,6 @@ echo "Bonjour " . $_SESSION['login']. " ";
 echo lien("login.php?action=deconnexion","Déconnexion");
 echo "<br />";
 echo lien("ami.php","Page ami");
-
 ?>
 
 <?php

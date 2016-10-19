@@ -37,12 +37,14 @@ include("entete.php");
 
 
 
-
+/*$sql = "lien(id,idUtilisateur1,idUtilisateur2,etat)";
+$query = $pdo->prepare($sql);
+$query->execute();*/
+echo "<input type='text' name='nomami'/>";
 ?>
 
 
 
 <?php
-
 include("pied.php");
 ?>
