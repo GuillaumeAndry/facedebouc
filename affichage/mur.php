@@ -51,12 +51,12 @@ echo "Bonjour " . $_SESSION['login']. " ";
 echo lien("login.php?action=deconnexion","Déconnexion");
 echo "<br />";
 echo lien("ami.php","Page ami");
+echo "<br />";
+echo input("text","ecrire");
+echo input("submit","publier");
 ?>
 
 <?php
 // On termine par le pied de page
-
 include("pied.php");
-
-
 ?>
