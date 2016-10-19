@@ -47,7 +47,9 @@ if(isset($_GET['id'])) { // Le formulaire a été soumis
     
     // Un seul résultat possible : login est unique
     $line = $query->fetch();*/
-var $action = 0;
+
+echo "<input type='text' name='nomami'/>";
+echo "<input type='button' name='button' />";
 switch($action)
 {
     case "add": //On veut ajouter un ami
